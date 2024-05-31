@@ -14,12 +14,12 @@ body {
   width: 90%;
   max-width: 1200px;
   margin: auto;
-  padding: 40px 0;
+  padding: 40px;
 }
 
 h1 {
   color: #888888;
-  background-image: url(/assets/banner1.png);
+  background-image: url(./assets/banner1.png);
   border-radius: 10px;
   min-height: 300px;
   font-weight: bold;
