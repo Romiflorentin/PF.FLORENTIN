@@ -1,0 +1,25 @@
+{
+  "name": "preentrega2.florentin",
+  "version": "1.0.0",
+  "description": "Mi primera pagina web",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Romiflorentin/PreEntrega2.FLORENTIN.git"
+  },
+  "keywords": [
+    "biografia",
+    "canciones",
+    "tours",
+    "entradas"
+  ],
+  "author": "Ro Florentin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Romiflorentin/PreEntrega2.FLORENTIN/issues"
+  },
+  "homepage": "https://github.com/Romiflorentin/PreEntrega2.FLORENTIN#readme"
+}
