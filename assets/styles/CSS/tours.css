@@ -146,7 +146,7 @@ h1 {
 }
 
 .banner {
-  background-image: url(/assets/banner.jpg);
+  background-image: url(./assets/banner.jpg);
   border-radius: 10px;
   text-align: center;
   padding: 20px;
