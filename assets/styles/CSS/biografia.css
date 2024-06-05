@@ -14,12 +14,11 @@ body {
   width: 90%;
   max-width: 1200px;
   margin: auto;
-  padding: 40px;
+  padding: 40px 0;
 }
-
 h1 {
   color: #888888;
-  background-image: url(/assets/banner1.png);
+  background-image: url(./../assets/banner1.png);
   border-radius: 10px;
   min-height: 300px;
   font-weight: bold;
@@ -42,37 +41,53 @@ h1 {
 .nav-link {
   color: #888888;
 }
-.container text-center {
-  display: grid;
-  grid-auto-rows: auto;
-}
-.row {
+.contenedor {
   display: flex;
-  flex: 1;
-  justify-content: space-between;
-}
-.col {
-  background-image: radial-gradient(
-    circle at 50% -20.71%,
-    #585854 0,
-    #2d3253 50%,
-    #171e2b 100%
-  );
-  border-radius: 10px;
-  justify-content: space-around;
-  width: 48%;
-  margin-left: 10px;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: center;
 }
 
-img {
+.parte1 {
+  flex: 1;
+  padding: 20px;
+  margin-right: 10px;
+  background-image: radial-gradient(
+    circle at 50% -20.71%,
+    #97967f 0,
+    #62646e 50%,
+    #22375d 100%
+  );
+  border-radius: 10px;
+}
+
+.img {
   width: 400px;
-  height: 350px;
+  padding-left: 100px;
   border-radius: 5px;
+}
+.parte2 {
+  flex: 1;
+  padding: 20px;
+  background-image: radial-gradient(
+    circle at 50% -20.71%,
+    #97967f 0,
+    #62646e 50%,
+    #22375d 100%
+  );
+  border-radius: 10px;
+}
+
+.portada {
+  width: 100%;
+  border-radius: 5px;
+}
+
+h2 {
+  padding-top: 50px;
+  text-align: center;
+}
+p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
 }
 .redesSociales {
   margin-top: 10px;
