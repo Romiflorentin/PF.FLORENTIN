@@ -16,7 +16,7 @@ body {
   margin: auto;
   padding: 40px 0;
 }
-h1 {
+body h1 {
   color: #888888;
   background-image: url(/assets/img/banner1.png);
   border-radius: 10px;
@@ -28,19 +28,21 @@ h1 {
   overflow: hidden;
   background-size: cover;
 }
+
 .navbar {
   background-image: var(--bs-gradient);
   border-radius: 10px;
 }
-.navbar-brand {
+.navbar .navbar-brand {
   color: #888888;
 }
-.nav-link active {
+.navbar .nav-link {
   color: #888888;
 }
-.nav-link {
-  color: #888888;
+.navbar .nav-link.active {
+  font-weight: bold;
 }
+
 .contenedor {
   display: flex;
 }
@@ -49,12 +51,7 @@ h1 {
   flex: 1;
   padding: 20px;
   margin-right: 10px;
-  background-image: radial-gradient(
-    circle at 50% -20.71%,
-    #97967f 0,
-    #62646e 50%,
-    #22375d 100%
-  );
+  background-image: radial-gradient(circle at 50% -20.71%, #97967f 0, #62646e 50%, #22375d 100%);
   border-radius: 10px;
 }
 
@@ -63,15 +60,11 @@ h1 {
   padding-left: 100px;
   border-radius: 5px;
 }
+
 .parte2 {
   flex: 1;
   padding: 20px;
-  background-image: radial-gradient(
-    circle at 50% -20.71%,
-    #97967f 0,
-    #62646e 50%,
-    #22375d 100%
-  );
+  background-image: radial-gradient(circle at 50% -20.71%, #97967f 0, #62646e 50%, #22375d 100%);
   border-radius: 10px;
 }
 
@@ -84,21 +77,25 @@ h2 {
   padding-top: 50px;
   text-align: center;
 }
+
 p {
   text-align: center;
   font-size: 16px;
   line-height: 1.5;
 }
+
 .redesSociales {
   margin-top: 10px;
   background-image: var(--bs-gradient);
   border-radius: 10px;
 }
+
 .iconos {
   display: flex;
   justify-content: space-around;
   padding-top: 30px;
 }
+
 .bi {
   font-size: 50px;
   margin-left: auto;
@@ -116,6 +113,7 @@ p {
 .bi-youtube {
   color: #888888;
 }
+
 .derechos {
   display: flex;
   justify-content: center;
@@ -124,12 +122,16 @@ p {
   font-size: 14px;
   align-self: flex-start;
 }
+
 .derechos p {
   font-size: 14px;
   color: #888888;
 }
+
 .derechos i {
   font-size: 14px;
   color: #888888;
   margin-left: 5px;
 }
+
+/*# sourceMappingURL=biografia.css.map */

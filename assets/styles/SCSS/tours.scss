@@ -1,0 +1,230 @@
+@import "variables";
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #1d202b;
+    color: black;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0;
+    h1 {
+      color: $color-principal;
+      background-image: url(/assets/img/banner1.png);
+      border-radius: 10px;
+      min-height: 300px;
+      font-weight: bold;
+      padding: 30px;
+      padding-top: 100px;
+      position: relative;
+      overflow: hidden;
+      background-size: cover;
+    }
+  }
+  .navbar {
+    background-image: var(--bs-gradient);
+    border-radius: 10px;
+    .navbar-brand {
+      color: $color-principal;
+    }
+    .nav-link {
+      color: $color-principal;
+      &.active {
+        font-weight: bold;
+      }
+    }
+  }
+  .contenedor {
+    display: flex;
+    max-width: 1200px;
+    margin-top: 20px;
+    padding: 60px 60px 60px 60px;
+    gap: 20px;
+    margin-right: 10px;
+    background-image: radial-gradient(
+      circle at 50% -20.71%,
+      #585854 0,
+      #2d3253 50%,
+      #171e2b 100%
+    );
+    border-radius: 10px;
+  }
+  .tours {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .card1,
+  .card2,
+  .card3,
+  .card3,
+  .card4,
+  .card5,
+  .card6,
+  .textos {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 16px;
+  }
+  .card1 {
+    background-image: url(/assets/img/card1.jpg);
+    border-radius: 10px;
+    min-height: 200px;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+  }
+  .card2 {
+    background-image: url(/assets/img/card2.jpg);
+    border-radius: 10px;
+    min-height: 200px;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .card3 {
+    background-image: url(/assets/img/card3.jpg);
+    border-radius: 10px;
+    min-height: 200px;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+  }
+  .card4 {
+    background-image: url(/assets/img/card4.jpg);
+    border-radius: 10px;
+    min-height: 200px;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .card5 {
+    background-image: url(/assets/img/card5.jpg);
+    border-radius: 10px;
+    min-height: 200px;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+  }
+  .card6 {
+    background-image: url(/assets/img/card6.jpg);
+    border-radius: 10px;
+    min-height: 200px;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .banner {
+    background-image: url(/assets/img/banner.jpg);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .banner ul {
+    list-style: none;
+  }
+  
+  .banner ul li {
+    margin: 15px;
+    font-weight: bold;
+  }
+  
+  .banner .boton {
+    background-image: radial-gradient(
+      circle at 50% -20.71%,
+      #585854 0,
+      #2d3253 50%,
+      #171e2b 100%
+    );
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+  .redesSociales {
+    margin-top: 10px;
+    background-image: var(--bs-gradient);
+    border-radius: 10px;
+  }
+  .iconos {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+  }
+  .bi {
+    font-size: 50px;
+    margin-left: auto;
+    align-self: flex-start;
+  }
+  
+  .bi-facebook {
+    color: #888888;
+  }
+  
+  .bi-instagram {
+    color: #888888;
+  }
+  
+  .bi-youtube {
+    color: #888888;
+  }
+  .derechos {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+    align-self: flex-start;
+  }
+  .derechos p {
+    font-size: 14px;
+    color: #888888;
+  }
+  .derechos i {
+    font-size: 14px;
+    color: #888888;
+    margin-left: 5px;
+  }
+  
