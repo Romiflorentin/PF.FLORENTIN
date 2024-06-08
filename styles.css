@@ -48,7 +48,6 @@ nav {
   margin-bottom: 20px;
   margin-top: 10px;
 }
-
 main {
   display: flex;
   flex: content;
@@ -155,7 +154,6 @@ input[type="submit"] {
   margin-right: 10px;
   max-width: 100px;
 }
-
 .redesSociales {
   margin-top: 10px;
   background-image: var(--bs-gradient);
@@ -199,4 +197,75 @@ input[type="submit"] {
   font-size: 14px;
   color: #888888;
   margin-left: 5px;
+}
+@media screen and (max-width: 600px) {
+  body {
+    background: #1d202b;
+    color: black;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    width: 50%;
+    margin: auto;
+    padding: 10px 0;
+  }
+  h1 {
+    color: #888888;
+    background-size: cover;
+    background-image: url(./assets/img/banner1.png);
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px;
+    padding-top: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+  }
+  main {
+    display: flex;
+    flex: content;
+    grid-template-columns: auto;
+    justify-content: space-between;
+    padding: 5px;
+  }
+  .principal {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+  }
+  .seccion1,
+  .seccion2,
+  .seccion3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    max-width: 600px;
+    margin-right: 10px;
+    background-image: radial-gradient(
+      circle at 50% -20.71%,
+      #97967f 0,
+      #62646e 50%,
+      #22375d 100%
+    );
+    text-align: center;
+    margin-top: 20px;
+  }
+  iframe {
+    padding-top: 10px;
+    width: 250;
+    height: 150;
+  }
+  .caja1 {
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 600px;
+    margin-right: 10px;
+    border-style: outset;
+    border-radius: 10px;
+    border-color: #62646e;
+    color: #888888;
+  }
 }

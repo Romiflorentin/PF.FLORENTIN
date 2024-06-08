@@ -18,7 +18,7 @@ body {
 }
 body h1 {
   color: #888888;
-  background-image: url(/assets/img/banner1.png);
+  background-image: url(../assets/img/banner1.png);
   border-radius: 10px;
   min-height: 300px;
   font-weight: bold;
@@ -68,11 +68,19 @@ body h1 {
 }
 
 img {
-  width: 400px;
-  height: 350px;
-  border-radius: 5px;
+  float: none;
+  margin-right: 50px;
+  border-radius: 50%;
+  height: 50%;
+  width: 50%;
+  object-fit: cover;
+  object-position: center;
 }
 
+/*width: 400px;
+  height: 350px;
+  border-radius: 5px;
+}*/
 .redesSociales {
   margin-top: 10px;
   background-image: var(--bs-gradient);
