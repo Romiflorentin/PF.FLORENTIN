@@ -18,7 +18,7 @@ body {
 }
 body h1 {
   color: #888888;
-  background-image: url(/assets/img/banner1.png);
+  background-image: url(../assets/img/banner1.png);
   border-radius: 10px;
   min-height: 300px;
   font-weight: bold;
@@ -76,7 +76,7 @@ body h1 {
 }
 
 .card1 {
-  background-image: url(/assets/img/card1.jpg);
+  background-image: url(../assets/img/card1.jpg);
   border-radius: 10px;
   min-height: 200px;
   font-weight: bold;
@@ -88,7 +88,7 @@ body h1 {
 }
 
 .card2 {
-  background-image: url(/assets/img/card2.jpg);
+  background-image: url(../assets/img/card2.jpg);
   border-radius: 10px;
   min-height: 200px;
   font-weight: bold;
@@ -100,7 +100,7 @@ body h1 {
 }
 
 .card3 {
-  background-image: url(/assets/img/card3.jpg);
+  background-image: url(../assets/img/card3.jpg);
   border-radius: 10px;
   min-height: 200px;
   font-weight: bold;
@@ -112,7 +112,7 @@ body h1 {
 }
 
 .card4 {
-  background-image: url(/assets/img/card4.jpg);
+  background-image: url(../assets/img/card4.jpg);
   border-radius: 10px;
   min-height: 200px;
   font-weight: bold;
@@ -124,7 +124,7 @@ body h1 {
 }
 
 .card5 {
-  background-image: url(/assets/img/card5.jpg);
+  background-image: url(../assets/img/card5.jpg);
   border-radius: 10px;
   min-height: 200px;
   font-weight: bold;
@@ -136,7 +136,7 @@ body h1 {
 }
 
 .card6 {
-  background-image: url(/assets/img/card6.jpg);
+  background-image: url(../assets/img/card6.jpg);
   border-radius: 10px;
   min-height: 200px;
   font-weight: bold;
@@ -148,7 +148,8 @@ body h1 {
 }
 
 .banner {
-  background-image: url(/assets/img/banner.jpg);
+  background-image: url(../assets/img/banner.jpg);
+  height: 100%;
   border-radius: 10px;
   text-align: center;
   padding: 20px;
