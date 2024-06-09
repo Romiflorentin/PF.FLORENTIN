@@ -1,3 +1,17 @@
+.navbar {
+  background-image: var(--bs-gradient);
+  border-radius: 10px;
+}
+.navbar .navbar-brand {
+  color: #888888;
+}
+.navbar .nav-link {
+  color: #888888;
+}
+.navbar .nav-link.active {
+  font-weight: bold;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -15,32 +29,6 @@ body {
   max-width: 1200px;
   margin: auto;
   padding: 40px 0;
-}
-body h1 {
-  color: #888888;
-  background-image: url(../assets/img/banner1.png);
-  border-radius: 10px;
-  min-height: 300px;
-  font-weight: bold;
-  padding: 30px;
-  padding-top: 100px;
-  position: relative;
-  overflow: hidden;
-  background-size: cover;
-}
-
-.navbar {
-  background-image: var(--bs-gradient);
-  border-radius: 10px;
-}
-.navbar .navbar-brand {
-  color: #888888;
-}
-.navbar .nav-link {
-  color: #888888;
-}
-.navbar .nav-link.active {
-  font-weight: bold;
 }
 
 .contenedor {
@@ -72,7 +60,8 @@ body h1 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .card1 {
@@ -85,6 +74,14 @@ body h1 {
   overflow: hidden;
   background-size: cover;
   background-position: center center;
+  /*border-radius: 10px;
+  min-height: 200px;
+  font-weight: bold;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;*/
 }
 
 .card2 {
@@ -97,6 +94,14 @@ body h1 {
   overflow: hidden;
   background-size: cover;
   background-position: center center;
+  /*border-radius: 10px;
+  min-height: 200px;
+  font-weight: bold;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;*/
 }
 
 .card3 {
@@ -109,6 +114,14 @@ body h1 {
   overflow: hidden;
   background-size: cover;
   background-position: center center;
+  /*border-radius: 10px;
+  min-height: 200px;
+  font-weight: bold;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;*/
 }
 
 .card4 {
@@ -121,6 +134,14 @@ body h1 {
   overflow: hidden;
   background-size: cover;
   background-position: center center;
+  /*border-radius: 10px;
+  min-height: 200px;
+  font-weight: bold;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;*/
 }
 
 .card5 {
@@ -133,6 +154,14 @@ body h1 {
   overflow: hidden;
   background-size: cover;
   background-position: center center;
+  /*border-radius: 10px;
+  min-height: 200px;
+  font-weight: bold;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;*/
 }
 
 .card6 {
@@ -145,6 +174,14 @@ body h1 {
   overflow: hidden;
   background-size: cover;
   background-position: center center;
+  /*border-radius: 10px;
+  min-height: 200px;
+  font-weight: bold;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;*/
 }
 
 .banner {
@@ -158,6 +195,8 @@ body h1 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .banner ul {
@@ -230,6 +269,32 @@ body h1 {
   font-size: 14px;
   color: #888888;
   margin-left: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-image: radial-gradient(circle at 50% -20.71%, #585854 0, #2d3253 50%, #171e2b 100%);
+    border-radius: 10px;
+  }
+  .tours {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../assets/img/banner.jpg);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center center;
+    font-size: 20px;
+    font-weight: 600;
+  }
 }
 
 /*# sourceMappingURL=tours.css.map */

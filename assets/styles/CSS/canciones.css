@@ -1,3 +1,17 @@
+.navbar {
+  background-image: var(--bs-gradient);
+  border-radius: 10px;
+}
+.navbar .navbar-brand {
+  color: #888888;
+}
+.navbar .nav-link {
+  color: #888888;
+}
+.navbar .nav-link.active {
+  font-weight: bold;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -15,32 +29,6 @@ body {
   max-width: 1200px;
   margin: auto;
   padding: 40px 0;
-}
-body h1 {
-  color: #888888;
-  background-image: url(../assets/img/banner1.png);
-  border-radius: 10px;
-  min-height: 300px;
-  font-weight: bold;
-  padding: 30px;
-  padding-top: 100px;
-  position: relative;
-  overflow: hidden;
-  background-size: cover;
-}
-
-.navbar {
-  background-image: var(--bs-gradient);
-  border-radius: 10px;
-}
-.navbar .navbar-brand {
-  color: #888888;
-}
-.navbar .nav-link {
-  color: #888888;
-}
-.navbar .nav-link.active {
-  font-weight: bold;
 }
 
 .contenedor {
@@ -134,6 +122,13 @@ ol li {
   font-size: 14px;
   color: #888888;
   margin-left: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /*# sourceMappingURL=canciones.css.map */
