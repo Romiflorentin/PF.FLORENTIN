@@ -1,4 +1,6 @@
 @import "variables";
+@import "menus";
+@import "mixin";
 * {
     padding: 0;
     margin: 0;
@@ -16,31 +18,6 @@
     max-width: 1200px;
     margin: auto;
     padding: 40px 0;
-    h1 {
-      color: $color-principal;
-      background-image: url(../assets/img/banner1.png);
-      border-radius: 10px;
-      min-height: 300px;
-      font-weight: bold;
-      padding: 30px;
-      padding-top: 100px;
-      position: relative;
-      overflow: hidden;
-      background-size: cover;
-    }
-  }
-  .navbar {
-    background-image: var(--bs-gradient);
-    border-radius: 10px;
-    .navbar-brand {
-      color: $color-principal;
-    }
-    .nav-link {
-      color: $color-principal;
-      &.active {
-        font-weight: bold;
-      }
-    }
   }
   .contenedor {
     display: flex;
@@ -74,75 +51,81 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: bold;
   }
   .card1 {
     background-image: url(../assets/img/card1.jpg);
-    border-radius: 10px;
+    @include cards;
+    /*border-radius: 10px;
     min-height: 200px;
     font-weight: bold;
     padding: 20px;
     position: relative;
     overflow: hidden;
     background-size: cover;
-    background-position: center center;
+    background-position: center center;*/
   }
   .card2 {
     background-image: url(../assets/img/card2.jpg);
-    border-radius: 10px;
+    @include cards;
+    /*border-radius: 10px;
     min-height: 200px;
     font-weight: bold;
     padding: 20px;
     position: relative;
     overflow: hidden;
     background-size: cover;
-    background-position: center center;
+    background-position: center center;*/
   }
-  
   .card3 {
     background-image: url(../assets/img/card3.jpg);
-    border-radius: 10px;
+    @include cards;
+    /*border-radius: 10px;
     min-height: 200px;
     font-weight: bold;
     padding: 20px;
     position: relative;
     overflow: hidden;
     background-size: cover;
-    background-position: center center;
+    background-position: center center;*/
   }
   .card4 {
     background-image: url(../assets/img/card4.jpg);
-    border-radius: 10px;
+    @include cards;
+    /*border-radius: 10px;
     min-height: 200px;
     font-weight: bold;
     padding: 20px;
     position: relative;
     overflow: hidden;
     background-size: cover;
-    background-position: center center;
+    background-position: center center;*/
   }
   
   .card5 {
     background-image: url(../assets/img/card5.jpg);
-    border-radius: 10px;
+    @include cards;
+    /*border-radius: 10px;
     min-height: 200px;
     font-weight: bold;
     padding: 20px;
     position: relative;
     overflow: hidden;
     background-size: cover;
-    background-position: center center;
+    background-position: center center;*/
   }
   .card6 {
     background-image: url(../assets/img/card6.jpg);
-    border-radius: 10px;
+    @include cards;
+    /*border-radius: 10px;
     min-height: 200px;
     font-weight: bold;
     padding: 20px;
     position: relative;
     overflow: hidden;
     background-size: cover;
-    background-position: center center;
+    background-position: center center;*/
   }
   
   .banner {
@@ -156,6 +139,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-size: 20px;
+    font-weight: 600;
   }
   
   .banner ul {
@@ -228,4 +213,33 @@
     color: #888888;
     margin-left: 5px;
   }
-  
+  @media screen and (max-width: 600px) {
+    .contenedor {
+      display: flex;
+      flex-direction:column;
+      justify-content:flex-start;
+      background-image: radial-gradient(
+        circle at 50% -20.71%,
+        #585854 0,
+        #2d3253 50%,
+        #171e2b 100%
+      );
+      border-radius: 10px;
+    }
+    .tours {
+      display: flex;
+    flex-direction: column;
+    }
+    .banner {
+      display: flex;
+      flex-direction:column;
+      background-image: url(../assets/img/banner.jpg);
+      border-radius: 10px;
+      text-align: center;
+      padding: 20px;
+      background-size: cover;
+      background-position: center center;
+      font-size: 20px;
+      font-weight: 600;
+    }
+  }

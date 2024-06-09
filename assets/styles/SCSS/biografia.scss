@@ -1,4 +1,5 @@
 @import "variables";
+@import "menus";
 * {
     padding: 0;
     margin: 0;
@@ -16,32 +17,8 @@
     max-width: 1200px;
     margin: auto;
     padding: 40px 0;
-    h1 {
-      color: $color-principal;
-      background-image: url(../assets/img/banner1.png);
-      border-radius: 10px;
-      min-height: 300px;
-      font-weight: bold;
-      padding: 30px;
-      padding-top: 100px;
-      position: relative;
-      overflow: hidden;
-      background-size: cover;
-    }
   }
-  .navbar {
-    background-image: var(--bs-gradient);
-    border-radius: 10px;
-    .navbar-brand {
-      color: $color-principal;
-    }
-    .nav-link {
-      color: $color-principal;
-      &.active {
-        font-weight: bold;
-      }
-    }
-  }
+ 
   .contenedor {
     display: flex;
   }
@@ -78,8 +55,11 @@
   }
   
   .portada {
-    width: 100%;
+    width: 80%;
     border-radius: 5px;
+    padding-left:80px;
+    padding-top: 50px;
+    
   }
   
   h2 {
@@ -135,4 +115,22 @@
     color: #888888;
     margin-left: 5px;
   }
-  
+  @media screen and (max-width: 600px) {
+    .contenedor {
+      display: flex;
+      flex-direction: column;
+      justify-content:space-between;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .parte1, .parte2 {
+      margin-bottom: 10px;
+    }
+    .img {
+      align-items: center;
+      
+      width: 250px;
+      padding-left: 70px;
+      border-radius: 5px;
+    }
+  }
