@@ -1,5 +1,6 @@
 @import "variables";
 @import "menus";
+@import "mixin";
 * {
     padding: 0;
     margin: 0;
@@ -66,33 +67,7 @@
     margin: 15px;
     font-weight: bold;
   }
-  .redesSociales {
-    margin-top: 10px;
-    background-image: var(--bs-gradient);
-    border-radius: 10px;
-  }
-  .iconos {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 30px;
-  }
-  .bi {
-    font-size: 50px;
-    margin-left: auto;
-    align-self: flex-start;
-  }
-  
-  .bi-facebook {
-    color: #888888;
-  }
-  
-  .bi-instagram {
-    color: #888888;
-  }
-  
-  .bi-youtube {
-    color: #888888;
-  }
+  @include redes-sociales;
   .derechos {
     display: flex;
     justify-content: center;
