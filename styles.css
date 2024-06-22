@@ -225,10 +225,12 @@ input[type="submit"] {
     background-image: url(./assets/img/banner1.png);
     border-radius: 5px;
     font-weight: bold;
-    padding: 5px;
     padding-top: 100px;
     position: relative;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px !important;
   }
   main {
     display: flex;
