@@ -9,7 +9,7 @@
   
   body {
     background: #1d202b;
-    color: black;
+    color: rgb(247, 247, 247); 
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -17,7 +17,7 @@
     width: 90%;
     max-width: 1200px;
     margin: auto;
-    padding: 40px 0;
+    padding-top: 40px;
   }
   .contenedor {
     display: flex;
@@ -38,6 +38,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    
   }
   .card1,
   .card2,
@@ -53,15 +54,18 @@
     justify-content: space-between;
     font-size: 20px;
     font-weight: bold;
-    
+    text-shadow: 3px 3px 0 #030000e1;
+  
   }
   .card1 {
     background-image: url(../assets/img/card1.jpg);
     @include cards;
+    
   }
   .card2 {
     background-image: url(../assets/img/card2.jpg);
     @include cards;
+    
   }
   .card3 {
     background-image: url(../assets/img/card3.jpg);
@@ -83,9 +87,12 @@
   
   .banner {
     background-image: url(../assets/img/banner.jpg);
+    background: linear-gradient(to bottom, black, white);
+    color: rgb(231, 222, 222);
     height: 100%;
     border-radius: 10px;
     text-align: center;
+    text-shadow: 3px 3px 0 #030000e1;
     padding: 20px;
     background-size: cover;
     background-position: center center;
