@@ -20,7 +20,7 @@
 
 body {
   background: #1d202b;
-  color: black;
+  color: rgb(247, 247, 247);
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -28,7 +28,7 @@ body {
   width: 90%;
   max-width: 1200px;
   margin: auto;
-  padding: 40px 0;
+  padding-top: 40px;
 }
 
 .contenedor {
@@ -62,6 +62,7 @@ body {
   justify-content: space-between;
   font-size: 20px;
   font-weight: bold;
+  text-shadow: 3px 3px 0 rgba(3, 0, 0, 0.8823529412);
 }
 
 .card1 {
@@ -138,9 +139,12 @@ body {
 
 .banner {
   background-image: url(../assets/img/banner.jpg);
+  background: linear-gradient(to bottom, black, white);
+  color: rgb(231, 222, 222);
   height: 100%;
   border-radius: 10px;
   text-align: center;
+  text-shadow: 3px 3px 0 rgba(3, 0, 0, 0.8823529412);
   padding: 20px;
   background-size: cover;
   background-position: center center;

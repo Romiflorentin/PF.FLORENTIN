@@ -28,15 +28,11 @@ body {
   width: 90%;
   max-width: 1200px;
   margin: auto;
-  padding: 40px 0;
+  padding-top: 40px;
 }
 
 .contenedor {
   display: flex;
-}
-
-h2 {
-  padding-bottom: 20px;
 }
 
 .albun1 {
@@ -46,6 +42,7 @@ h2 {
   background-image: radial-gradient(circle at 50% -20.71%, #97967f 0, #62646e 50%, #22375d 100%);
   border-radius: 10px;
   text-align: center;
+  justify-items: center;
 }
 
 .albun2 {

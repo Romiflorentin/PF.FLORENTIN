@@ -17,14 +17,10 @@
     width: 90%;
     max-width: 1200px;
     margin: auto;
-    padding: 40px 0;
+    padding-top: 40px;
   }
   .contenedor {
     display: flex;
-  }
-
-  h2 {
-    padding-bottom: 20px;
   }
   .albun1 {
     flex: 1;
@@ -38,6 +34,8 @@
     );
     border-radius: 10px;
     text-align: center;
+    justify-items: center;
+    
   }
   .albun2 {
     flex: 1;
@@ -59,6 +57,7 @@
   .albun2 ol {
     list-style: none;
     text-decoration: none;
+    
   }
   
   .albun1,
